@@ -31,19 +31,19 @@ C:\Program Files (x86)\PRTG Network Monitor\notifications\exe
 
 ## Command Line Parameters
 
-Use this exact command line in your PRTG notification template:
-
-```
--SlackWebHook 'SLACK_WEBHOOK_URL' -SlackChannel '#prtg' -SiteName '%sitename' -Device '%device' -Name '%name' -Status '%status' -Down '%down' -DateTime '%datetime' -LinkDevice '%linkdevice' -Message '%message' -SensorID '%sensorid' -PRTGServer 'https://www.example-prtg-monitor.com' -APIToken 'PRTG_API_TOKEN'
-```
-
-## Configuration Steps
-
 1. Update parameters with your values:
    - Replace `SLACK_WEBHOOK_URL` with your Slack webhook URL
    - Set `SlackChannel` to your channel name
    - Update `PRTGServer` with your PRTG server URL
    - Replace `PRTG_API_TOKEN` with your generated API token
+
+![PRTG Notification Template](images/prtg-notification.png)
+
+Use this line in your PRTG notification template Parameters line: Adjust with the above details
+
+```
+-SlackWebHook 'SLACK_WEBHOOK_URL' -SlackChannel '#prtg' -SiteName '%sitename' -Device '%device' -Name '%name' -Status '%status' -Down '%down' -DateTime '%datetime' -LinkDevice '%linkdevice' -Message '%message' -SensorID '%sensorid' -PRTGServer 'https://www.example-prtg-monitor.com' -APIToken 'PRTG_API_TOKEN'
+```
 
 ## Security Notes
 
