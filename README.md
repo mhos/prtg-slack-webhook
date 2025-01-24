@@ -1,7 +1,7 @@
 # PRTG to Slack Notification Integration
 
 - This integration enables PRTG monitoring alerts to be sent directly to Slack channels.
-- The Slack notifications provides Acknowlege, Pause Monitor and Resume Monitor buttons that uses the PRTG API.
+- The Slack notifications provides Acknowledge, Pause Monitor and Resume Monitor buttons that uses the PRTG API.
 
 Example Notification:
 ![Slack Example Notification](images/slack-example.png)
