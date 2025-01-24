@@ -2,6 +2,10 @@
 
 This integration enables PRTG monitoring alerts to be sent directly to Slack channels.
 
+Example Notification:
+![Slack Example Notification](images/slack-example.png)
+
+
 ## Prerequisites
 
 - PRTG monitoring system
