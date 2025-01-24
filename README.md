@@ -45,6 +45,12 @@ Use this line in your PRTG notification template Parameters line: Adjust with th
 -SlackWebHook 'SLACK_WEBHOOK_URL' -SlackChannel '#prtg' -SiteName '%sitename' -Device '%device' -Name '%name' -Status '%status' -Down '%down' -DateTime '%datetime' -LinkDevice '%linkdevice' -Message '%message' -SensorID '%sensorid' -PRTGServer 'https://www.example-prtg-monitor.com' -APIToken 'PRTG_API_TOKEN'
 ```
 
+Added -Debug flag that logs to "C:\prtgslackdebug.log". Just add -Debug to the end of your Parameters line in PRTG Notification template.
+
+```
+-SlackWebHook 'SLACK_WEBHOOK_URL' -SlackChannel '#prtg' -SiteName '%sitename' -Device '%device' -Name '%name' -Status '%status' -Down '%down' -DateTime '%datetime' -LinkDevice '%linkdevice' -Message '%message' -SensorID '%sensorid' -PRTGServer 'https://www.example-prtg-monitor.com' -APIToken 'PRTG_API_TOKEN' -Debug
+```
+
 ## Security Notes
 
 - Keep your API Token and Slack Webhook URL secure
